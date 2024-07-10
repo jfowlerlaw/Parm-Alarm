@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to Retro Pizza!</title>
+    <style>
+      body {
+            margin: 0;
+            padding: 0;
+            background: repeating-linear-gradient(
+                45deg,
+                #ff0000,
+                #ff0000 10px,
+                #ffffff 10px,
+                #ffffff 20px
+            );
+            height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-family: Arial, sans-serif;
+            color: #333;
+        }
+        .content {
+            background-color: rgba(255, 255, 255, 0.8);
+            padding: 20px;
+            border: 2px solid #cc0000;
+            text-align: center;
+        }
+        .header {
+            background-color: #cc0000;
+            color: #fff;
+            padding: 10px;
+            text-align: center;
+        }
+        .menu {
+            margin: 20px;
+            padding: 20px;
+            background-color: #fff;
+            border: 2px solid #cc0000;
+        }
+        .menu-item {
+            font-size: 18px;
+            line-height: 1.6;
+        }
+        .footer {
+            background-color: #cc0000;
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <div class="content">
+        <h1>Welcome to Retro Pizza!</h1>
+        <p>Delivering nostalgia since the 90s</p>
+    </div>
+
+    <div class="menu">
+        <h2>Our Menu</h2>
+        <div class="menu-item">
+            <h3>Classic Pepperoni Pizza</h3>
+            <p>A timeless favorite topped with pepperoni and mozzarella cheese.</p>
+            <p>Price: $9.99</p>
+        </div>
+        <div class="menu-item">
+            <h3>Hawaiian Pizza</h3>
+            <p>Aloha! Topped with ham, pineapple, and mozzarella cheese.</p>
+            <p>Price: $10.99</p>
+        </div>
+        <div class="menu-item">
+            <h3>Veggie Delight</h3>
+            <p>Loaded with fresh vegetables and mozzarella cheese.</p>
+            <p>Price: $8.99</p>
+        </div>
+    </div>
+
+    <div class="footer">
+        <p>&copy; 2024 Retro Pizza. All rights reserved.</p>
+    </div>
+</body>
+</html>
